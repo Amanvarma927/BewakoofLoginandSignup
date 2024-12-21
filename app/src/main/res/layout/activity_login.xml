@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:background="@drawable/rashmikablack">
+        
+    </LinearLayout>
+
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentBottom="true"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome Aboard! 💛"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="28sp"></TextView>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join us now to be part of Bewakoof® Family!"
+                android:alpha="0.7"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Mobile Number"
+                android:alpha="0.7"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:drawableStart="@drawable/indianflagsvg"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CONTINUE"
+                android:textColor="@color/white"
+                android:backgroundTint="#FFC70B"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:cornerRadius="40dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:alpha="0.7"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CONTINUE WITH EMAIL"
+                android:id="@+id/continueemail"
+                android:textStyle="bold"
+                app:backgroundTint="#FFC70B"
+                app:icon="@drawable/mailsvg"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/backfb"/>
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/backgoogle"/>
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By Creating an account or logging in,you agree with Bewakoof®'s Terms and Conditions and Privacy Policy"
+                android:alpha="0.7"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    
+    
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "429313411240",
+    "project_id": "bewakoof-40260",
+    "storage_bucket": "bewakoof-40260.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429313411240:android:c723b89ba0f04e5fe41a9d",
+        "android_client_info": {
+          "package_name": "com.a1developers.bewakoof"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKmZEH7sZ2Po-HXayZeUbQ4vLrEuzZ2EY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
